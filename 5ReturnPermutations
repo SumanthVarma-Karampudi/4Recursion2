@@ -20,6 +20,8 @@ int return_permutations2(string input, string output[]){
     }
     return k;
 }
+
+--------------------------------------------------------------------------------
 int return_permutations(string input, string output[]){
     if(input.length()==0 || input.length()==1){
         output[0]=input;
